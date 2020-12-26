@@ -1,0 +1,15 @@
+
+.background-image{
+    -fx-background: url("background.jpg");
+    -fx-background-repeat: stretch;
+}
+
+.transperent{
+     -fx-background-color: rgba(0,0,0,0);
+ }
+.text-input{
+        -fx-text-fill: rgba(255,255,255, 0.9);
+        -fx-prompt-text-fill: rgba(255,255,255, 0.9)
+
+ }
+ 

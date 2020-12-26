@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="602.0" prefWidth="1125.0" styleClass="transperent" stylesheets="@../sample/main.css" type="javafx.scene.layout.BorderPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+    <left>
+      <HBox BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets left="500.0" />
+         </BorderPane.margin>
+         <children>
+              <VBox prefHeight="569.0" prefWidth="365.0" spacing="15.0">
+                  <opaqueInsets>
+                      <Insets />
+                  </opaqueInsets>
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="829.0">
+                     <children>
+                        <Label prefHeight="40.0" prefWidth="120.0" text="Login" textFill="WHITE">
+                           <font>
+                              <Font name="Serif Bold" size="27.0" />
+                           </font>
+                        </Label>
+                        <TextField prefHeight="40.0" prefWidth="237.0" promptText="username" style="-fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" styleClass="transperent" stylesheets="@../sample/main.css">
+                           <font>
+                              <Font name="Serif Bold" size="15.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="10.0" top="40.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="829.0">
+                     <children>
+                        <Label prefHeight="40.0" prefWidth="120.0" text="Name" textFill="WHITE">
+                           <font>
+                              <Font name="Serif Bold" size="27.0" />
+                           </font>
+                        </Label>
+                        <TextField prefHeight="40.0" prefWidth="237.0" promptText="name" style="-fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" styleClass="transperent" stylesheets="@../sample/main.css">
+                           <font>
+                              <Font name="Serif Bold" size="15.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="829.0">
+                     <children>
+                        <Label prefHeight="40.0" prefWidth="120.0" text="Phone" textFill="WHITE">
+                           <font>
+                              <Font name="Serif Bold" size="27.0" />
+                           </font>
+                        </Label>
+                        <TextField prefHeight="40.0" prefWidth="237.0" promptText="phone number" style="-fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" styleClass="transperent" stylesheets="@../sample/main.css">
+                           <font>
+                              <Font name="Serif Bold" size="15.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="829.0">
+                     <children>
+                        <Label prefHeight="40.0" prefWidth="120.0" text="Password" textFill="WHITE">
+                           <font>
+                              <Font name="Serif Bold" size="27.0" />
+                           </font>
+                        </Label>
+                        <TextField prefHeight="40.0" prefWidth="237.0" promptText="password" style="-fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" styleClass="transperent" stylesheets="@../sample/main.css">
+                           <font>
+                              <Font name="Serif Bold" size="15.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="829.0">
+                     <children>
+                        <Label prefHeight="40.0" prefWidth="120.0" />
+                        <PasswordField prefHeight="40.0" prefWidth="237.0" promptText="repeat password" style="-fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" styleClass="transperent" stylesheets="@../sample/main.css">
+                           <font>
+                              <Font name="Serif Bold" size="15.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </PasswordField>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="829.0">
+                     <children>
+                        <Label prefHeight="40.0" prefWidth="120.0" text="Email" textFill="WHITE">
+                           <font>
+                              <Font name="Serif Bold" size="27.0" />
+                           </font>
+                        </Label>
+                        <TextField prefHeight="40.0" prefWidth="237.0" promptText="email" style="-fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" styleClass="transperent" stylesheets="@../sample/main.css">
+                           <font>
+                              <Font name="Serif Bold" size="15.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="36.0" prefWidth="365.0">
+                     <children>
+                        <CheckBox mnemonicParsing="false" stylesheets="@registration.css">
+                           <HBox.margin>
+                              <Insets left="100.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Serif Regular" size="12.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </CheckBox>
+                        <Label text="I agree to the ">
+                           <font>
+                              <Font name="Serif Regular" size="12.0" />
+                           </font>
+                        </Label>
+                        <Hyperlink text="terms of service">
+                           <font>
+                              <Font name="Serif Regular" size="12.0" />
+                           </font>
+                        </Hyperlink>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox prefHeight="69.0" prefWidth="355.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#OnButtonClick" prefHeight="60.0" prefWidth="161.0" text="Sign Up">
+                           <styleClass>
+                              <String fx:value="second-additional-color" />
+                              <String fx:value="buttons" />
+                              <String fx:value="shadow" />
+                              <String fx:value="buttons-text-color" />
+                           </styleClass>
+                           <HBox.margin>
+                              <Insets left="100.0" />
+                           </HBox.margin>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <stylesheets>
+                              <URL value="@../home/home.css" />
+                              <URL value="@registration.css" />
+                           </stylesheets>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="80.0" top="30.0" />
+               </HBox.margin>
+              </VBox>
+         </children>
+      </HBox>
+    </left>
+</fx:root>

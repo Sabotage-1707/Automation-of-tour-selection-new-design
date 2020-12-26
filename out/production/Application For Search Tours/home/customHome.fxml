@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="602.0" prefWidth="1088.0" styleClass="transperent" stylesheets="@home.css" type="javafx.scene.layout.BorderPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+    <left>
+        <VBox alignment="CENTER_LEFT" prefHeight="354.0" prefWidth="829.0" spacing="15.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label text="WE ARE OPEN 24/7 INCLUDING MAJOR HOLIDAYS" textFill="WHITE">
+                    <font>
+                        <Font name="Serif Regular" size="18.0" />
+                    </font>
+                </Label>
+                <Label text="Plane Your Trip &#10;With SOFTTOUR" textFill="WHITE" wrapText="true">
+                    <font>
+                        <Font name="Serif Regular" size="64.0" />
+                    </font>
+                </Label>
+                <Label text="Book your tour today online &amp; enjoy your trip to amazing places" textFill="WHITE">
+                    <font>
+                        <Font name="Serif Regular" size="18.0" />
+                    </font>
+                </Label>
+                <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="829.0" spacing="60.0">
+                    <children>
+                        <Button mnemonicParsing="false" onAction="#OnButtonClick" prefHeight="60.0" prefWidth="170.0" text="Pick up" textFill="WHITE">
+                            <font>
+                                <Font name="Serif Bold" size="20.0" />
+                            </font>
+                            <styleClass>
+                                <String fx:value="first-additional-color" />
+                                <String fx:value="buttons" />
+                                <String fx:value="shadow" />
+                            </styleClass>
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="170.0" text="Reports" textFill="WHITE">
+                            <font>
+                                <Font name="Serif Regular" size="20.0" />
+                            </font>
+                            <styleClass>
+                                <String fx:value="second-additional-color" />
+                                <String fx:value="buttons" />
+                                <String fx:value="shadow" />
+                            </styleClass>
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </Button>
+                    </children>
+                </HBox>
+            </children>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+            <BorderPane.margin>
+                <Insets left="275.0" />
+            </BorderPane.margin>
+        </VBox>
+    </left>
+    <bottom>
+        <HBox prefHeight="200.0" prefWidth="899.0" spacing="20.0" BorderPane.alignment="CENTER">
+            <children>
+                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="250.0" styleClass="offer-background" stylesheets="@home.css">
+                    <children>
+                        <HBox prefHeight="48.0" prefWidth="250.0">
+                            <children>
+                                <Label prefHeight="48.0" prefWidth="197.0" text="Seasonal Discount" textFill="WHITE">
+                                    <font>
+                                        <Font name="Serif Regular" size="18.0" />
+                                    </font>
+                                    <padding>
+                                        <Insets left="10.0" />
+                                    </padding>
+                                </Label>
+                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="48.0" prefWidth="62.0" text="5 %" textFill="WHITE">
+                                    <font>
+                                        <Font name="Serif Regular" size="20.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <Label prefHeight="64.0" prefWidth="250.0" text="Selected tours  with a 5% discount, &#10;depending on what season it is now" textFill="WHITE">
+                            <padding>
+                                <Insets left="10.0" />
+                            </padding>
+                            <font>
+                                <Font name="Serif Regular" size="14.0" />
+                            </font>
+                        </Label>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="170.0" stylesheets="@home.css" text="Pick up" textFill="WHITE">
+                            <font>
+                                <Font name="Serif Bold" size="19.0" />
+                            </font>
+                            <styleClass>
+                                <String fx:value="first-additional-color" />
+                                <String fx:value="buttons" />
+                                <String fx:value="shadow" />
+                            </styleClass>
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </Button>
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="250.0" styleClass="offer-background" stylesheets="@home.css">
+                    <children>
+                        <HBox prefHeight="48.0" prefWidth="250.0">
+                            <children>
+                                <Label prefHeight="48.0" prefWidth="197.0" text="Children's Discount" textFill="WHITE">
+                                    <font>
+                                        <Font name="Serif Regular" size="18.0" />
+                                    </font>
+                                    <padding>
+                                        <Insets left="10.0" />
+                                    </padding>
+                                </Label>
+                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="48.0" prefWidth="62.0" text="14 %" textFill="WHITE">
+                                    <font>
+                                        <Font name="Serif Regular" size="20.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <Label prefHeight="64.0" prefWidth="250.0" text="Select tours that include a 14% discount&#10;for children under 14 years old&#10;" textFill="WHITE">
+                            <padding>
+                                <Insets left="10.0" />
+                            </padding>
+                            <font>
+                                <Font name="Serif Regular" size="14.0" />
+                            </font>
+                        </Label>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="170.0" stylesheets="@home.css" text="Pick up" textFill="WHITE">
+                            <font>
+                                <Font name="Serif Regular" size="20.0" />
+                            </font>
+                            <styleClass>
+                                <String fx:value="first-additional-color" />
+                                <String fx:value="buttons" />
+                                <String fx:value="shadow" />
+                            </styleClass>
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </Button>
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="250.0" styleClass="offer-background" stylesheets="@home.css">
+                    <children>
+                        <HBox prefHeight="48.0" prefWidth="250.0">
+                            <children>
+                                <Label prefHeight="48.0" prefWidth="197.0" text="Hot deals" textFill="WHITE">
+                                    <font>
+                                        <Font name="Serif Regular" size="18.0" />
+                                    </font>
+                                    <padding>
+                                        <Insets left="10.0" />
+                                    </padding>
+                                </Label>
+                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="48.0" prefWidth="62.0" text="20 %" textFill="WHITE">
+                                    <font>
+                                        <Font name="Serif Regular" size="20.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <Label prefHeight="64.0" prefWidth="250.0" text="Selected tours with a 20% discount, &#10;which are limited in time for booking" textFill="WHITE">
+                            <padding>
+                                <Insets left="10.0" />
+                            </padding>
+                            <font>
+                                <Font name="Serif Regular" size="14.0" />
+                            </font>
+                        </Label>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="170.0" stylesheets="@home.css" text="Pick up" textFill="WHITE">
+                            <font>
+                                <Font name="Serif Regular" size="20.0" />
+                            </font>
+                            <styleClass>
+                                <String fx:value="first-additional-color" />
+                                <String fx:value="buttons" />
+                                <String fx:value="shadow" />
+                            </styleClass>
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </Button>
+                    </children>
+                </VBox>
+            </children>
+            <BorderPane.margin>
+                <Insets bottom="30.0" left="275.0" />
+            </BorderPane.margin>
+        </HBox>
+    </bottom>
+</fx:root>

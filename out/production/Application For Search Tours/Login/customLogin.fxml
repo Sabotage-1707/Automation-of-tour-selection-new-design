@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="602.0" prefWidth="1007.0" spacing="20.0" styleClass="transperent" stylesheets="@../sample/main.css" type="javafx.scene.layout.VBox" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <padding>
+      <Insets left="500.0" />
+   </padding>
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="360.0" spacing="20.0">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@user.png" />
+               </image>
+            </ImageView>
+            <TextField prefHeight="40.0" prefWidth="237.0" promptText="username" style="-fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" styleClass="transperent" stylesheets="@../sample/main.css">
+               <font>
+                  <Font name="Serif Bold" size="15.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+         <VBox.margin>
+            <Insets top="160.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="829.0" spacing="20.0">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@password-key.png" />
+               </image>
+            </ImageView>
+            <TextField prefHeight="40.0" prefWidth="237.0" promptText="password" style="-fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" styleClass="transperent" stylesheets="@../sample/main.css">
+               <font>
+                  <Font name="Serif Bold" size="15.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox prefHeight="69.0" prefWidth="424.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="161.0" text="Log In">
+               <styleClass>
+                  <String fx:value="second-additional-color" />
+                  <String fx:value="buttons" />
+                  <String fx:value="shadow" />
+                  <String fx:value="buttons-text-color" />
+               </styleClass>
+               <HBox.margin>
+                  <Insets left="90.0" />
+               </HBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <stylesheets>
+                  <URL value="@../home/home.css" />
+                  <URL value="@../Registration/registration.css" />
+               </stylesheets>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</fx:root>

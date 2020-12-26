@@ -1,0 +1,8 @@
+.check-box > .box {
+     -fx-background-color: rgba(0,0,0,0);
+     -fx-border-color:white;
+     -fx-border-radius: 3px;
+}
+.buttons-text-color{
+    -fx-text-fill:white;
+}

@@ -1,0 +1,29 @@
+.first-additional-color{
+    -fx-background-color: #F7C36D;
+}
+.second-additional-color{
+    -fx-background-color: #DB4F00;
+}
+.buttons{
+    -fx-background-radius:100;
+    -fx-font-weight:700;
+     -fx-font-family: Serif;
+     -fx-font-size:20;
+
+}
+.shadow{
+    -fx-effect:dropShadow(one-pass-box,rgba(0,0,0,0.3), 10.0,0.0,0.0,10.0);
+}
+
+.offer-background{
+
+ -fx-background-color: rgba(219, 79, 0, 0.8);
+ -fx-background-radius:30;
+}
+.transperent{
+    -fx-background-color: rgba(0,0,0,0);
+}
+.buttons:hover {
+    -fx-font-size:14;
+    -fx-font-family: Serif;
+}

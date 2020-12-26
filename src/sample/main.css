@@ -1,0 +1,17 @@
+.top-panel, .bot-panel{
+    -fx-background-color: rgba(219, 130, 112, 0.8);
+}
+.search-box{
+    -fx-text-color:white;
+    -fx-border-color:white;
+    -fx-border-width: 0px 0px 0px 0px;
+}
+.search-box:hover,.search-box:focused {
+    -fx-border-width: 0px 0px 2px 0px;
+}
+.main-buttons{
+    -fx-text-fill:white;
+}
+.main-buttons:hover{
+    -fx-background-color: rgba(219, 130, 112, 0.6);
+}
